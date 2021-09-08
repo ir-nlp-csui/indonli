@@ -13,6 +13,16 @@ We use premises taken from the Indonesian Wikipedia. Wikipedia is licensed under
 
 ## Citation
 
-If you use our corpus in your work, please consider citing our paper.
+If you use our corpus in your work, please consider citing our paper:
+```
+@inproceedings{indonli,
+    title = "IndoNLI: A Natural Language Inference Dataset for Indonesian",
+    author = "Mahendra, Rahmad and Aji, Alham Fikri and Louvan, Samuel and Rahman, Fahrurrozi and Vania, Clara",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    publisher = "Association for Computational Linguistics",
+}
+```
 
 
