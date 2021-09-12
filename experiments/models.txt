@@ -1,0 +1,111 @@
+bash runner.sh indobenchmark/indobert-lite-base-p2
+bash runner.sh bert-base-multilingual-cased
+bash runner.sh indobenchmark/indobert-large-p2
+bash runner.sh xlm-roberta-large
+
+
+Download indobenchmark:
+
+python jiant/jiant/proj/main/export_model.py --model_type indobert-lite-base-p2 --hf_model_name indobenchmark/indobert-lite-base-p2 --output_base_path experiments/models/indobenchmark/indobert-lite-base-p2
+
+
+python jiant/jiant/proj/main/export_model.py --model_type indobert-large-p2 --hf_model_name indobenchmark/indobert-large-p2 --output_base_path experiments/models/indobenchmark/indobert-large-p2
+
+
+#####
+
+Training command:
+
+indo_nli & indo_nli_ho:
+
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_nli 1
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_nli 11
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_nli 12
+bash runner.sh bert-base-multilingual-cased indo_nli 0
+bash runner.sh bert-base-multilingual-cased indo_nli 01
+bash runner.sh bert-base-multilingual-cased indo_nli 02
+bash runner.sh indobenchmark/indobert-large-p2 indo_nli 1
+bash runner.sh indobenchmark/indobert-large-p2 indo_nli 11
+bash runner.sh indobenchmark/indobert-large-p2 indo_nli 12
+bash runner.sh xlm-roberta-large indo_nli 3
+bash runner.sh xlm-roberta-large indo_nli 31
+bash runner.sh xlm-roberta-large indo_nli 32
+
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_nli_ho 1
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_nli_ho 11
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_nli_ho 12
+bash runner.sh bert-base-multilingual-cased indo_nli_ho 0
+bash runner.sh bert-base-multilingual-cased indo_nli_ho 01
+bash runner.sh bert-base-multilingual-cased indo_nli_ho 02
+bash runner.sh indobenchmark/indobert-large-p2 indo_nli_ho 1
+bash runner.sh indobenchmark/indobert-large-p2 indo_nli_ho 11
+bash runner.sh indobenchmark/indobert-large-p2 indo_nli_ho 12
+bash runner.sh xlm-roberta-large indo_nli_ho 3
+bash runner.sh xlm-roberta-large indo_nli_ho 31
+bash runner.sh xlm-roberta-large indo_nli_ho 32
+
+indo_nli_augment
+
+bash runner.sh xlm-roberta-large indo_nli_augment 3
+bash runner.sh xlm-roberta-large indo_nli_augment 31
+bash runner.sh xlm-roberta-large indo_nli_augment 32
+
+indo_xnli_plus
+
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_xnli_plus 7
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_xnli_plus 71
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_xnli_plus 72
+bash runner.sh bert-base-multilingual-cased indo_xnli_plus 7
+bash runner.sh bert-base-multilingual-cased indo_xnli_plus 71
+bash runner.sh bert-base-multilingual-cased indo_xnli_plus 72
+bash runner.sh indobenchmark/indobert-large-p2 indo_xnli_plus 7
+bash runner.sh indobenchmark/indobert-large-p2 indo_xnli_plus 71
+bash runner.sh indobenchmark/indobert-large-p2 indo_xnli_plus 72
+bash runner.sh xlm-roberta-large indo_xnli_plus 7
+bash runner.sh xlm-roberta-large indo_xnli_plus 71
+bash runner.sh xlm-roberta-large indo_xnli_plus 72
+
+zero-shot
+
+bash runner.sh indobenchmark/indobert-lite-base-p2 zero_shot 8
+bash runner.sh indobenchmark/indobert-lite-base-p2 zero_shot 81
+bash runner.sh indobenchmark/indobert-lite-base-p2 zero_shot 82
+bash runner.sh bert-base-multilingual-cased zero_shot 8
+bash runner.sh bert-base-multilingual-cased zero_shot 81
+bash runner.sh bert-base-multilingual-cased zero_shot 82
+bash runner.sh indobenchmark/indobert-large-p2 zero_shot 8
+bash runner.sh indobenchmark/indobert-large-p2 zero_shot 81
+bash runner.sh indobenchmark/indobert-large-p2 zero_shot 82
+bash runner.sh xlm-roberta-large zero_shot 8
+bash runner.sh xlm-roberta-large zero_shot 81
+bash runner.sh xlm-roberta-large zero_shot 82
+
+indo_xnli_sampled
+
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_xnli_sampled 0
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_xnli_sampled 01
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_xnli_sampled 02
+bash runner.sh bert-base-multilingual-cased indo_xnli_sampled 0
+bash runner.sh bert-base-multilingual-cased indo_xnli_sampled 01
+bash runner.sh bert-base-multilingual-cased indo_xnli_sampled 02
+bash runner.sh indobenchmark/indobert-large-p2 indo_xnli_sampled 2
+bash runner.sh indobenchmark/indobert-large-p2 indo_xnli_sampled 21
+bash runner.sh indobenchmark/indobert-large-p2 indo_xnli_sampled 22
+bash runner.sh xlm-roberta-large indo_xnli_sampled 0
+bash runner.sh xlm-roberta-large indo_xnli_sampled 01
+bash runner.sh xlm-roberta-large indo_xnli_sampled 02
+
+indo_xnli_small_ho
+
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_xnli_small_ho 0
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_xnli_small_ho 01
+bash runner.sh indobenchmark/indobert-lite-base-p2 indo_xnli_small_ho 02
+bash runner.sh bert-base-multilingual-cased indo_xnli_small_ho 0
+bash runner.sh bert-base-multilingual-cased indo_xnli_small_ho 01
+bash runner.sh bert-base-multilingual-cased indo_xnli_small_ho 02
+bash runner.sh indobenchmark/indobert-large-p2 indo_xnli_small_ho 2
+bash runner.sh indobenchmark/indobert-large-p2 indo_xnli_small_ho 21
+bash runner.sh indobenchmark/indobert-large-p2 indo_xnli_small_ho 22
+bash runner.sh xlm-roberta-large indo_xnli_small_ho 0
+bash runner.sh xlm-roberta-large indo_xnli_small_ho 01
+bash runner.sh xlm-roberta-large indo_xnli_small_ho 02

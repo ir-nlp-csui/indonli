@@ -1,0 +1,5 @@
+exp_name,model,lay_1,lay_2,lay_3,expert_1,expert_2,expert_3
+indo-nli,indobert-base,52.16,53.48,54.7,53.86,56.64,56.75
+indo-nli,indobert-large,58.2,53.07,55.75,60.31,56.96,58.92
+indo-nli,m-bert,52.43,52.16,53.38,54.47,54.15,57.49
+indo-nli,xlm-r,64.38,65.24,67.47,67.71,68.0,69.6

@@ -1,0 +1,96 @@
+indo_nli
+
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_nli 1
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_nli 11
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_nli 12
+python call_predict.py bert-base-multilingual-cased indo_nli 0
+python call_predict.py bert-base-multilingual-cased indo_nli 01
+python call_predict.py bert-base-multilingual-cased indo_nli 02
+python call_predict.py indobenchmark/indobert-large-p2 indo_nli 1
+python call_predict.py indobenchmark/indobert-large-p2 indo_nli 11
+python call_predict.py indobenchmark/indobert-large-p2 indo_nli 12
+python call_predict.py xlm-roberta-large indo_nli 3
+python call_predict.py xlm-roberta-large indo_nli 31
+python call_predict.py xlm-roberta-large indo_nli 32
+
+indo_nli
+
+python call_predict.py xlm-roberta-large indo_nli_augment 3
+python call_predict.py xlm-roberta-large indo_nli_augment 31
+python call_predict.py xlm-roberta-large indo_nli_augment 32
+
+indo_nli_ho
+
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_nli_ho 1
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_nli_ho 11
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_nli_ho 12
+python call_predict.py bert-base-multilingual-cased indo_nli_ho 0
+python call_predict.py bert-base-multilingual-cased indo_nli_ho 01
+python call_predict.py bert-base-multilingual-cased indo_nli_ho 02
+python call_predict.py indobenchmark/indobert-large-p2 indo_nli_ho 1
+python call_predict.py indobenchmark/indobert-large-p2 indo_nli_ho 11
+python call_predict.py indobenchmark/indobert-large-p2 indo_nli_ho 12
+python call_predict.py xlm-roberta-large indo_nli_ho 3
+python call_predict.py xlm-roberta-large indo_nli_ho 31
+python call_predict.py xlm-roberta-large indo_nli_ho 32
+
+
+indo_xnli_plus
+
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_xnli 7
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_xnli 71
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_xnli 72
+python call_predict.py bert-base-multilingual-cased indo_xnli 7
+python call_predict.py bert-base-multilingual-cased indo_xnli 71
+python call_predict.py bert-base-multilingual-cased indo_xnli 72
+python call_predict.py indobenchmark/indobert-large-p2 indo_xnli 7
+python call_predict.py indobenchmark/indobert-large-p2 indo_xnli 71
+python call_predict.py indobenchmark/indobert-large-p2 indo_xnli 72
+python call_predict.py xlm-roberta-large indo_xnli 7
+python call_predict.py xlm-roberta-large indo_xnli 71
+python call_predict.py xlm-roberta-large indo_xnli 72
+
+zero-shot
+
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_xnli 8
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_xnli 81
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_xnli 82
+python call_predict.py bert-base-multilingual-cased indo_xnli 8
+python call_predict.py bert-base-multilingual-cased indo_xnli 81
+python call_predict.py bert-base-multilingual-cased indo_xnli 82
+python call_predict.py indobenchmark/indobert-large-p2 indo_xnli 8
+python call_predict.py indobenchmark/indobert-large-p2 indo_xnli 81
+python call_predict.py indobenchmark/indobert-large-p2 indo_xnli 82
+python call_predict.py xlm-roberta-large indo_xnli 8
+python call_predict.py xlm-roberta-large indo_xnli 81
+python call_predict.py xlm-roberta-large indo_xnli 82
+
+indo_xnli_small
+
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_xnli_small 0
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_xnli_small 01
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_xnli_small 02
+python call_predict.py bert-base-multilingual-cased indo_xnli_small 0
+python call_predict.py bert-base-multilingual-cased indo_xnli_small 01
+python call_predict.py bert-base-multilingual-cased indo_xnli_small 02
+python call_predict.py indobenchmark/indobert-large-p2 indo_xnli_small 2
+python call_predict.py indobenchmark/indobert-large-p2 indo_xnli_small 21
+python call_predict.py indobenchmark/indobert-large-p2 indo_xnli_small 22
+python call_predict.py xlm-roberta-large indo_xnli_small 0
+python call_predict.py xlm-roberta-large indo_xnli_small 01
+python call_predict.py xlm-roberta-large indo_xnli_small 02
+
+indo_xnli_small_ho
+
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_xnli_small_ho 0
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_xnli_small_ho 01
+python call_predict.py indobenchmark/indobert-lite-base-p2 indo_xnli_small_ho 02
+python call_predict.py bert-base-multilingual-cased indo_xnli_small_ho 0
+python call_predict.py bert-base-multilingual-cased indo_xnli_small_ho 01
+python call_predict.py bert-base-multilingual-cased indo_xnli_small_ho 02
+python call_predict.py indobenchmark/indobert-large-p2 indo_xnli_small_ho 2
+python call_predict.py indobenchmark/indobert-large-p2 indo_xnli_small_ho 21
+python call_predict.py indobenchmark/indobert-large-p2 indo_xnli_small_ho 22
+python call_predict.py xlm-roberta-large indo_xnli_small_ho 0
+python call_predict.py xlm-roberta-large indo_xnli_small_ho 01
+python call_predict.py xlm-roberta-large indo_xnli_small_ho 02

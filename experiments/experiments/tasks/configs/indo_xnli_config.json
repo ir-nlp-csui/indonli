@@ -1,0 +1,9 @@
+{
+  "task": "indo_xnli",
+  "paths": {
+    "train": "/scratch/cv50/indo-nli/experiments/tasks/data/indo_xnli/train.jsonl",
+    "val": "/scratch/cv50/indo-nli/experiments/tasks/data/indo_xnli/dev.jsonl",
+    "test": "/scratch/cv50/indo-nli/experiments/tasks/data/indo_xnli/test.jsonl"
+  },
+  "name": "indo_xnli"
+}

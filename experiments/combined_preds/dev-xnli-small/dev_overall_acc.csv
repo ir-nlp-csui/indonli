@@ -1,0 +1,13 @@
+exp_name,model,run_1,run_2,run_3
+indo-nli,indobert-base,54.87,57.78,56.67
+indo-nli,indobert-large,62.79,59.78,61.68
+indo-nli,m-bert,57.41,54.68,57.69
+indo-nli,xlm-r,67.75,68.54,69.32
+zero-shot-small,indobert-base,66.03,67.1,66.08
+zero-shot-small,indobert-large,65.29,64.13,63.76
+zero-shot-small,m-bert,65.94,65.57,65.85
+zero-shot-small,xlm-r,79.94,78.59,78.59
+zero-shot-small-ho,indobert-base,51.02,51.25,51.39
+zero-shot-small-ho,indobert-large,50.0,50.19,50.46
+zero-shot-small-ho,m-bert,50.46,48.89,50.37
+zero-shot-small-ho,xlm-r,39.9,34.57,34.57
