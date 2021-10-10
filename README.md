@@ -12,7 +12,11 @@ The experiment code can be found under `experiment` directory, please check the 
 
 ## License
 
-We use premises taken from the Indonesian Wikipedia. Wikipedia is licensed under Creative Commons Attribution-ShareAlike 3.0 Unported License (CC-BY-SA) and the GNU Free Documentation License (GFDL).
+We use premises taken from the Indonesian Wikipedia, news, and Web articles. 
+
+Wikipedia is licensed under Creative Commons Attribution-ShareAlike 3.0 Unported License (CC-BY-SA) and the GNU Free Documentation License (GFDL).
+
+For the news genre, we use premise text from Indonesian PUD and GSD treebanks provided by the Universal Dependencies 2.5 (Zeman et al., 2019) and IndoSum (Kurniawan and Louvan, 2018). Indonesian PUD and GSD treebanks are licensed under Creative Commons Attribution-ShareAlike 3.0 Unported License (CC-BY-SA) and Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA). IndoSum is licensed under Apache License, Version 2.0.
 
 
 ## Citation
