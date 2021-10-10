@@ -2,6 +2,7 @@
 
 This is a repository for data and code accompanying our EMNLP 2021 paper "IndoNLI: A Natural Language Inference Dataset for Indonesian". The datasets used for our experiments can be found under the `data` directory:
 - `indonli`: human-annotated NLI data, split into `train`, `val`, and `test` (`test_lay` and `test_expert`)
+
    `diagnostic`: subset of examples from test_expert that are annotated with linguistic and logical phenomena
 - `translate_train.tar.gz`: MNLI dataset translated to Indonesian (train and dev)
 - `translate_train_small.tar.gz`: sampled of `translate_train` used for the `translate_train_small` experiment.
