@@ -23,13 +23,16 @@ For the news genre, we use premise text from Indonesian PUD and GSD treebanks pr
 
 If you use our corpus in your work, please consider citing our paper:
 ```
-@inproceedings{indonli,
-    title = "IndoNLI: A Natural Language Inference Dataset for Indonesian",
+@inproceedings{mahendra-etal-2021-indonli,
+    title = "{I}ndo{NLI}: A Natural Language Inference Dataset for {I}ndonesian",
     author = "Mahendra, Rahmad and Aji, Alham Fikri and Louvan, Samuel and Rahman, Fahrurrozi and Vania, Clara",
     booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
     month = nov,
     year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
     publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.821",
+    pages = "10511--10527",
 }
 ```
 
