@@ -9,6 +9,7 @@ This is a repository for data and code accompanying our EMNLP 2021 paper "IndoNL
 
 The experiment code can be found under `experiment` directory, please check the related [README](https://github.com/ir-nlp-csui/indonli/blob/main/experiments/README.md) file.
 
+This dataset is also available in HuggingFace (https://huggingface.co/datasets/indonli)
 
 ## License
 
